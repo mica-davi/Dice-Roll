@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.dice-list {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+
+  width: 50em;
+}
+
+.dice-list > * {
+  text-align: center;
+  flex: 33%;
+  margin: 0;
+  padding: 0;
+}

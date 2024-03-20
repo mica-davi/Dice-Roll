@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados RPG</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+  <body>
+    <script defer type="module" src="./main.js"></script>
+    
+    
+    <div class="container">
+        <h1>Dados</h1>
+        <ul class="dice-list">
+            <li><button data-sides="4" class="die">d4</button></li>
+            <li><button data-sides="6" class="die">d6</button></li>
+            <li><button data-sides="8" class="die">d8</button></li>
+            <li><button data-sides="10" class="die">d10</button></li>
+            <li><button data-sides="12" class="die">d12</button></li>
+            <li><button data-sides="20" class="die">d20</button></li>
+        </ul>
+        <input type="text" disabled id="result" value="">
+    </div>
+
+    <div id="past_rolls"></div>
+
+</body>
+</html>
