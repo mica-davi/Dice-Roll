@@ -82,7 +82,6 @@ textarea:not([rows]) {
 
 body{
   background-color: var(--bg-color-700);
-  color: var(--font-color-200);
   font-family: var(--font-family);
 }
 
@@ -109,19 +108,42 @@ h1 {
 }
 
 .dice-list > * {
-  text-align: center;
   flex: 33%;
   margin: 0;
   padding: 3em 0;
 }
 
 
+.dice-manager {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em 0em;
+  gap: .5em;
+}
+
+.dice-manager > button{
+  padding: 1em;
+  
+}
+
+.dice-manager > p{
+  align-self: center;
+  color: white;
+}
+
+
 .die{
   width: 5em;
   height: 5em;
+  margin: 0 auto;
+  line-height: 5em;
+  text-align: center;
+  vertical-align: middle;
 
   box-shadow: -6px 5px 15px 2px rgb(0, 0, 0);
   border-radius: 100%;
   border-color: var(--accent-color-100);
   background-color: var(--accent-color-100);
+
 }
