@@ -16,12 +16,59 @@
     <div class="container">
         <h1>Dados</h1>
         <ul class="dice-list">
-            <li><button data-sides="4" class="die">d4</button></li>
-            <li><button data-sides="6" class="die">d6</button></li>
-            <li><button data-sides="8" class="die">d8</button></li>
-            <li><button data-sides="10" class="die">d10</button></li>
-            <li><button data-sides="12" class="die">d12</button></li>
-            <li><button data-sides="20" class="die">d20</button></li>
+            <li>
+              <div class="die">d4</div>
+              <div class="dice-manager">
+                <button data-sides="4" class="sign">-</button>
+                <p data-sides="4">0</p>
+                <button data-sides="4" class="sign">+</button>
+              </div>
+            </li>
+
+            <li>
+              <div class="die">d6</div>
+              <div class="dice-manager">
+                <button data-sides="6" class="sign">-</button>
+                <p data-sides="6">0</p>
+                <button data-sides="6" class="sign">+</button>
+              </div>
+            </li>
+
+            <li>
+              <div class="die">d8</div>
+              <div class="dice-manager">
+                <button data-sides="8" class="sign">-</button>
+                <p data-sides="8">0</p>
+                <button data-sides="8" class="sign">+</button>
+              </div>
+            </li>
+
+            <li>
+              <div class="die">d10</div>
+              <div class="dice-manager">
+                <button data-sides="10" class="sign">-</button>
+                <p data-sides="10">0</p>
+                <button data-sides="10" class="sign">+</button>
+              </div>
+            </li>
+
+            <li>
+              <div class="die">d12</div>
+              <div class="dice-manager">
+                <button data-sides="12" class="sign">-</button>
+                <p data-sides="12">0</p>
+                <button data-sides="12" class="sign">+</button>
+              </div>
+            </li>
+
+            <li>
+              <div class="die">d20</div>
+              <div class="dice-manager">
+                <button data-sides="20" class="sign">-</button>
+                <p data-sides="20">0</p>
+                <button data-sides="20" class="sign">+</button>
+              </div> 
+            </li>
         </ul>
         <input type="text" disabled id="result" value="">
     </div>
